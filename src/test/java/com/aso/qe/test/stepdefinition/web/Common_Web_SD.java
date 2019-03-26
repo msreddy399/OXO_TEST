@@ -26,6 +26,12 @@ public class Common_Web_SD extends CommonActionHelper
 		logger.debug("User closes the application & Browser.............");
 		close();
 	}
+	
+	@When("^user clicks on Wish list link in the header$")
+	public void user_clicks_on_Wish_list_link_in_the_header() throws Throwable {
+		   
+		assertFalse(false);
+	}
 
 
 	
